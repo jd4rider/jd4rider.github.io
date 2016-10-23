@@ -1,0 +1,61 @@
+body {
+  text-align: center;
+  content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    opacity: 0.7;
+  background-color: #6F5A32;
+  background-image: url(http://i1082.photobucket.com/albums/j375/Jonathan_Forrider/Website/2000px-Web_2.0_Map.svg2_2_zpscnpwtmhs.png);
+      background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*min-width: 900px;*/
+  opacity: 0.7;
+}
+
+body:before{
+
+}
+
+
+.jumbotron1{
+  background-image: url(https://i.ytimg.com/vi/VBgW3GPhXPM/maxresdefault.jpg);
+  opacity: 0.99999999999;
+}
+
+.im-centered { margin: auto; max-width: 1250px;}
+.im-centered2 { margin: auto; max-width: 1150px;}
+
+#titleone {
+  background-color: #e6ffff;
+  opacity: 0.9;
+  text-shadow: 2px 5px #FFA500;
+  font-weight: bold;
+}
+
+#footer {
+  height: 120px;
+  background-color: #f5f5f5;
+  font-size: 200%;
+}
+
+#footer > .container222 {
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img{
+width: 100%; /* use this, or not */
+height: 500px;
+margin: auto;
+}
